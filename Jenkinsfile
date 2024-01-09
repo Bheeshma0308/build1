@@ -7,14 +7,7 @@ pipeline
     }
     stages
     {
-        stage('Checkout') 
-        {
-            steps
-            {
-                // Checkout the Git repository
-                 checkout([$class:'GitSCM',branches:[[name: '*/master']],doGenerateSubmoduleConfigurations:false,userRemoteConfigs:[[url:'https://github.com/Bheeshma0308/build1.git']]])
-            }
-        }
+        
         stage('Build')
         {
             steps
