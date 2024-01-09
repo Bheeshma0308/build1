@@ -45,6 +45,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             <manifest>
               <addClasspath>true</addClasspath>
               <mainclass>com.journaldev.first</mainclass>
+            </manifest>
+          </archive>
+        </configuration>
       </plugin>
     </plugins>
   </build
