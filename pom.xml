@@ -17,7 +17,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <jdk.version>1.8</jdk.version>
+    <jdk.version>17.0.9</jdk.version>
 
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
   </properties>
@@ -35,5 +35,16 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       </plugin>
     </plugins>
   </build>
+
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.6.3</version> <!-- Use the appropriate version -->
+        </plugin>
+    </plugins>
+</build>
+
   
 </project>
