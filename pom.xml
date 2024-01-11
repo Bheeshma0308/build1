@@ -7,7 +7,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   <groupId>com.journaldev.first</groupId>
   <artifactId>servlet</artifactId>
   <version>1.0</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>servlet</name>
   <description>servlet web program.</description>
@@ -35,22 +35,5 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       </plugin>
     </plugins>
   </build>
-
-  <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.6.3</version> <!-- Use the appropriate version -->
-        </plugin>
-    </plugins>
-</build>
-
-  <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.2.3</version> <!-- Update to the latest version -->
-</plugin>
-
   
 </project>
